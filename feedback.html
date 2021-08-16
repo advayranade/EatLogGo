@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="app.css">
+  <title>Feedback</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="aws-cognito-sdk.js"></script>
+  <script type="text/javascript" src="aws-cognito-identity.js"></script>
+  <script type="text/javascript" src="config.js"></script>
+  <script type="text/javascript" src="cognito-auth.js"></script>
+  <link rel="icon" href="images/favicon.png" type="image/png"/>
+  
+</head>
+<body>
+  <div class="container" id="nav-wrap">
+    <script type="text/javascript" src="nav.js"></script>
+  </div>
+  <h1 class="h3 mb-3 font-weight-normal">Share Feedback</h1>
+  <div class="container">
+  <form class="form">
+    <div class="form-group">
+      <textarea id="feedback_text" class="form-control" placeholder="How can we improve?"></textarea>
+    </div>            
+    <button type="submit" class="btn btn-primary" id="submit-feedback">Submit</button>
+  </form>
+  </div>
+  <script type="text/javascript" src="feedback.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145523915-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145523915-3');
+</script>
+</body>
+</html>

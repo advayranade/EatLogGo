@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="app.css">
+  <title>About</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="aws-cognito-sdk.js"></script>
+  <script type="text/javascript" src="aws-cognito-identity.js"></script>
+  <script type="text/javascript" src="config.js"></script>
+  <script type="text/javascript" src="cognito-auth.js"></script>
+  <link rel="icon" href="images/favicon.png" type="image/png"/>
+</head>
+<body>
+  <div class="container" id="nav-wrap">
+    <script type="text/javascript" src="nav.js"></script>
+  </div>
+  <h1 class="h3 mb-3 font-weight-normal" style="margin:0">About</h1>
+  <div class="container">
+    <p>This is the EatLogGo app! This is the app that my dad and I developed and launched the first version in 30 days!</p>
+    
+    <p>One friday afternoon, I was chatting with my mom and dad. My dad asked me, "Advay, what did we have for lunch day before yesterday?" and, none of us could remember. He keeps asking that all the time. Then we thought, wouldn't it be cool to have an app that can log what you ate everyday? Then, my dad said, why don't we build it ourselves!? So, this is the story behind EatLogGo!</p>
+    
+    <p>I had recently learnt basic programming in <a href="https://www.khanacademy.org/computing/computer-programming/html-css">HTML, CSS</a> and <a href="https://www.khanacademy.org/computing/computer-programming/html-css-js">Javascript</a> from Khan Academy and my dad also wanted to experiment with <a href="http://aws.amazon.com/">AWS (Amazon Web Services)</a> So, we decided to use that.</p>
+
+    <p>For the first few days I thought there is no way we can finish EatLogGo in one month. But after about a week or so, I was really excited about it because I was almost done with the html pages! Even though, I knew the basics of HTML, CSS, Javascript while developing tools and games such as the <a href="http://advayranade.com/snake.html" target="_blank">Snake Game</a>, <a href="http://advayranade.com/tip_calc.html" target="_blank">Tip Calculator</a>, etc I had never worked on a web application where you could signup, signin, and do something. So, it was very fascinating to learn all of that from my dad.</p> <p>A few days before sharing it with our friends, my dad and I were talking about having a logo for EatLogGo. Then, we remembered that we could use <a href="https://wix.com/logo/maker">WixLogoMaker</a>! I played around with it and finally created a logo that everyone liked and thought we could use.</p>
+    
+    <p>I had so much fun and learnt so many things building this application. Thank you dad for your help and making this experience so exciting! I hope you all like using EatLogGo! </p><p>We would love to hear your <a href="javascript:EatLogGo.redirectTo('feedback.html')">feedback</a>! Let's start logging!</p>
+  </div>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145523915-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145523915-3');
+</script>
+</body>
+</html>

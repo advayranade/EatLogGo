@@ -1,0 +1,145 @@
+body {
+  margin:10px;
+}
+h1,.slogan {
+  text-align:center;
+}
+.form {
+  width: 100%;
+  max-width: 330px;
+  margin: auto;
+}
+.form p {
+  margin-top:30px;
+}
+#loading {
+  display: block;
+  margin: 0 auto;
+}
+#log {
+  display: none;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.entry-pic {
+	width: 300px;
+	border: 1px solid gray;
+	display: block;
+	margin: auto;
+  margin-top:10px;
+}
+.entry-pic.placeholder {
+	opacity: 0.3;
+	padding: 5px;
+}
+td.img-holder {
+    width: 20%;
+
+}
+.details {
+	font-size: .8em;
+  font-weight: bold;
+  padding-top:10px;
+  margin-left:15px;
+  outline:none;
+}
+.type, .date {
+  font-size: 0.8em;
+  margin:15px;
+}
+.date {
+  padding-right: 20px;
+}
+#pic {
+  opacity: 0.3;
+  margin: 0 auto 20px;
+  display: block;
+  width: 50%;
+  max-width: 300px;
+  border: 1px solid gray;
+  padding: 20px;
+}
+#note {
+  text-align:center;
+  font-size: 23.5px;
+  font-family: sans-serif;
+}
+#create {
+  display:block;
+  margin:0 auto;
+  font-size: 20px;
+
+}
+svg.bi {
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.intro {
+  padding: 0;
+  margin: 20px auto;
+  max-width: 350px;
+}
+.intro li {
+  color: #fff;
+  list-style-type: none;
+  font-size: 1em;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.intro li.first {
+  background: #be5504;
+}
+.intro li.second {
+  background: #fc6600;
+}
+.intro li.third {
+  background: #ffbf00;
+}
+.logo {
+  padding-top:20px;
+}
+.logo img {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  background: #ffeeba;
+  color: gray;
+}
+img {
+  display:block;
+}
+#nav-wrap {
+  padding-right: 0;
+  padding-left: 0;
+  max-width: 760px;
+}
+#feedback_text {
+  height: 200px;
+}
+.entry {
+  margin-bottom: 20px;
+  background: #F5F5F5;
+  max-width: 400px;
+  margin: 0 auto 20px;
+}
+.edit {
+  background: #fff;
+  outline:none;
+  padding:5px;
+  border:1px solid black;
+  margin:0 auto 10px;
+}
+.editEntry {
+  width: 5em;
+  font-size: 10px;
+  margin:5px;
+}
+.edit-wrapper {
+  float:right;
+}
+.delete-wrapper {
+  float:right;
+}
